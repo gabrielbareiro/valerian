@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
+import NavBar from './components/NavBar.js'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/js/dist/dropdown.js'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>Valerian</code>
-        </p>
-        <div>Bareiro Gabriel</div>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="container">
+        <div>Valerian tienda virtual</div>
+        <NavBar/>
       </header>
     </div>
   );
