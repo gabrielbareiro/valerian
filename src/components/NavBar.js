@@ -1,7 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+import CartWidget from './CartWidget';
 function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <div><CartWidget /></div>
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Valerian</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,4 +37,5 @@ function NavBar() {
         )
 
 }
+
 export default NavBar;
