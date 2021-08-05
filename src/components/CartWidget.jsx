@@ -1,4 +1,4 @@
-import LogoV from './LogoV.js'
+import LogoV from './LogoV.jsx'
 function CartWidget() {
     return (
         <LogoV width= {50} height={50}/>

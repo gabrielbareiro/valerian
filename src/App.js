@@ -1,8 +1,8 @@
 import './App.css';
-import NavBar from './components/NavBar.js'
+import NavBar from './components/NavBar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/js/dist/dropdown.js'
-import ItemListContainer from './components/ItemListContainer';
+import ItemListContainer from './components/ItemListContainer.jsx';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <NavBar />
       </header>
       <main>
-        <ItemListContainer />
+        <ItemListContainer nombre= "catalogo"/>
       </main>
     </div>
     

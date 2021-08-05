@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import CartWidget from './CartWidget';
+import CartWidget from './CartWidget.jsx';
 function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
