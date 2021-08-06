@@ -1,7 +1,8 @@
 import './App.css';
 import NavBar from './components/NavBar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/js/dist/dropdown.js'
+import Cards from './components/Cards.jsx';
+import ItemCount from './components/ItemCount';
 import ItemListContainer from './components/ItemListContainer.jsx';
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
       </header>
       <main>
         <ItemListContainer nombre= "catalogo"/>
+        
+        <ItemCount />
       </main>
     </div>
     
