@@ -1,9 +1,9 @@
+import React, {useState} from 'react';
 import './App.css';
 import NavBar from './components/NavBar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Cards from './components/Cards.jsx';
 import ItemCount from './components/ItemCount';
-import ItemListContainer from './components/ItemListContainer.jsx';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <NavBar />
       </header>
       <main>
-        <ItemListContainer nombre= "catalogo"/>
+        <ItemListContainer titulo= "catalogo"/>
         
         <ItemCount />
       </main>

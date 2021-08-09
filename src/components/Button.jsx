@@ -1,9 +1,9 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 
-export default function Button(props) {
+
+export default function button(props) {
     return (
-      <button class="btn btn-outline-secondary" onClick={() => props.Click("hola")}>
+      <button className="btn btn-outline-secondary" onClick={() => props.Click()}>
         {props.text}
       </button>
     );

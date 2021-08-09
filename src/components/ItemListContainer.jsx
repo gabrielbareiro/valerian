@@ -1,3 +1,3 @@
-export default function ItemListContainer (props) {
-    return <div>soy un {props.nombre}</div>
+export default function ItemListContainer ({titulo}) {
+    return <div>{titulo}</div>
 }
