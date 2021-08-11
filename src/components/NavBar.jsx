@@ -1,9 +1,16 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import CartWidget from './CartWidget.jsx';
+import LogoV from './LogoV.jsx'
+
+
+
 function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <div><CartWidget /></div>
+          <div>
+          <LogoV width= {50} height={50}/>
+          </div>
+          
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Valerian</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,6 +40,7 @@ function NavBar() {
       </ul>
     </div>
   </div>
+  <div><CartWidget /></div>
 </nav>
         )
 

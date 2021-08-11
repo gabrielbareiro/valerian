@@ -1,8 +1,9 @@
-import LogoV from './LogoV.jsx'
-function CartWidget() {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faShoppingCart} from '@fortawesome/free-solid-svg-icons'
+
+
+export default function CartWidget() {
     return (
-        <LogoV width= {50} height={50}/>
+            <FontAwesomeIcon icon= {faShoppingCart} style={{fontSize: "2rem"}}/>
     )
 }
-
-export default CartWidget
