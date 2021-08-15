@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import NavBar from './components/NavBar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import ItemCount from './components/ItemCount';
+import Item from './components/Item';
 import ItemListContainer from './components/ItemListContainer';
 
 function App() {
@@ -14,8 +14,6 @@ function App() {
       </header>
       <main>
         <ItemListContainer titulo= "catalogo"/>
-        
-        <ItemCount />
       </main>
     </div>
     

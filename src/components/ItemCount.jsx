@@ -1,14 +1,11 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState} from "react";
 import Button from "./Button";
-import Cards from "./Cards";
 
 const cards = {id: 1, nombre: "remera", stock: 5}
-  
-//const enStock = cards.stock;
-//console.log(enStock)
 
-export default function itemCount () {
-        const [contador, setCount] = useState(0);
+
+export default function itemCount ({stock, initial, onAdd}) {
+        const [contador, setCount] = useState(initial);
         
         const enStock = cards.stock
 
@@ -24,10 +21,14 @@ export default function itemCount () {
         }
         return (
           <Fragment>
-              <Cards nombre= {cards.nombre} stock= {cards.stock}/>
-            <p>Agregados {contador}</p>
-            <Button text="+" Click={incrementar} />
-            <Button text="-" Click={decrementar} />
+              <div className="card-body">
+                <h5 className="card-title">articulo: {cards.nombre}</h5>
+                <div className="card-text">disponibles: {cards.stock}</div>
+                <p>Agregados {contador}</p>
+                <Button text="+" onAdd={incrementar} />
+                <Button text="-" onAdd={decrementar} />
+                <a href="#" className="btn btn-outline-secondary">comprar</a>
+            </div>
           </Fragment>
         );
       }
