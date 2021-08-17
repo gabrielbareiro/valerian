@@ -1,16 +1,14 @@
 import React, { Fragment, useState} from "react";
 import Button from "./Button";
 
-const cards = {id: 1, nombre: "remera", stock: 5}
+
 
 
 export default function itemCount ({stock, initial, onAdd}) {
         const [contador, setCount] = useState(initial);
-        
-        const enStock = cards.stock
 
         const incrementar= () => {
-          if (contador < enStock) {
+          if (contador < stock) {
           setCount(contador +1)  
           }
         }
@@ -22,8 +20,8 @@ export default function itemCount ({stock, initial, onAdd}) {
         return (
           <Fragment>
               <div className="card-body">
-                <h5 className="card-title">articulo: {cards.nombre}</h5>
-                <div className="card-text">disponibles: {cards.stock}</div>
+                <h5 className="card-title">articulo: articulo</h5>
+                <div className="card-text">disponibles: {stock}</div>
                 <p>Agregados {contador}</p>
                 <Button text="+" onAdd={incrementar} />
                 <Button text="-" onAdd={decrementar} />
