@@ -4,7 +4,7 @@ import Button from "./Button";
 
 
 
-export default function itemCount ({stock, initial, onAdd}) {
+export default function itemCount ({stock, initial}) {
         const [contador, setCount] = useState(initial);
 
         const incrementar= () => {
@@ -19,14 +19,10 @@ export default function itemCount ({stock, initial, onAdd}) {
         }
         return (
           <Fragment>
-              <div className="card-body">
-                <h5 className="card-title">articulo: articulo</h5>
-                <div className="card-text">disponibles: {stock}</div>
                 <p>Agregados {contador}</p>
                 <Button text="+" onAdd={incrementar} />
                 <Button text="-" onAdd={decrementar} />
                 <a href="#" className="btn btn-outline-secondary">comprar</a>
-            </div>
           </Fragment>
         );
       }

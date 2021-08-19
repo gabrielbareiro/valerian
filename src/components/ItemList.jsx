@@ -32,5 +32,13 @@ export default function ItemList() {
       });
   }, []);
 
-  return <Item />
+  return (
+    <div> 
+    {productos.map((u) => (
+    <Item key={u.id} {...u}/>
+    ))}
+  </div>
+  )
+   
+  
 }
