@@ -1,0 +1,302 @@
+
+[{
+  "id": 1,
+  "articulo": "Abigale",
+  "precio": "$5121.02",
+  "stock": 19,
+  "imagen": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+}, {
+  "id": 2,
+  "articulo": "Franciska",
+  "precio": "$3282.78",
+  "stock": 46,
+  "imagen": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+}, {
+  "id": 3,
+  "articulo": "Shannah",
+  "precio": "$1481.11",
+  "stock": 98,
+  "imagen": "http://dummyimage.com/250x250.png/dddddd/000000"
+}, {
+  "id": 4,
+  "articulo": "Alanah",
+  "precio": "$5218.84",
+  "stock": 40,
+  "imagen": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+}, {
+  "id": 5,
+  "articulo": "Benetta",
+  "precio": "$4416.11",
+  "stock": 88,
+  "imagen": "http://dummyimage.com/250x250.png/dddddd/000000"
+}, {
+  "id": 6,
+  "articulo": "Rochella",
+  "precio": "$3976.03",
+  "stock": 30,
+  "imagen": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+}, {
+  "id": 7,
+  "articulo": "Murray",
+  "precio": "$4271.84",
+  "stock": 32,
+  "imagen": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+}, {
+  "id": 8,
+  "articulo": "Lula",
+  "precio": "$2169.61",
+  "stock": 52,
+  "imagen": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+}, {
+  "id": 9,
+  "articulo": "Ebenezer",
+  "precio": "$5963.87",
+  "stock": 25,
+  "imagen": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+}, {
+  "id": 10,
+  "articulo": "Jasper",
+  "precio": "$4666.98",
+  "stock": 50,
+  "imagen": "http://dummyimage.com/250x250.png/dddddd/000000"
+}, {
+  "id": 11,
+  "articulo": "Valerye",
+  "precio": "$3639.29",
+  "stock": 75,
+  "imagen": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+}, {
+  "id": 12,
+  "articulo": "Opalina",
+  "precio": "$2571.39",
+  "stock": 41,
+  "imagen": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+}, {
+  "id": 13,
+  "articulo": "Romona",
+  "precio": "$1547.56",
+  "stock": 30,
+  "imagen": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+}, {
+  "id": 14,
+  "articulo": "Sharron",
+  "precio": "$2818.48",
+  "stock": 79,
+  "imagen": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+}, {
+  "id": 15,
+  "articulo": "Cchaddie",
+  "precio": "$1295.57",
+  "stock": 82,
+  "imagen": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+}, {
+  "id": 16,
+  "articulo": "Shermie",
+  "precio": "$2564.60",
+  "stock": 30,
+  "imagen": "http://dummyimage.com/250x250.png/dddddd/000000"
+}, {
+  "id": 17,
+  "articulo": "Parry",
+  "precio": "$5721.06",
+  "stock": 48,
+  "imagen": "http://dummyimage.com/250x250.png/dddddd/000000"
+}, {
+  "id": 18,
+  "articulo": "Marlena",
+  "precio": "$4976.08",
+  "stock": 64,
+  "imagen": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+}, {
+  "id": 19,
+  "articulo": "Mahalia",
+  "precio": "$4592.44",
+  "stock": 26,
+  "imagen": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+}, {
+  "id": 20,
+  "articulo": "Birch",
+  "precio": "$4835.78",
+  "stock": 34,
+  "imagen": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+}, {
+  "id": 21,
+  "articulo": "Elisabetta",
+  "precio": "$6789.61",
+  "stock": 8,
+  "imagen": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+}, {
+  "id": 22,
+  "articulo": "Gasper",
+  "precio": "$3596.83",
+  "stock": 98,
+  "imagen": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+}, {
+  "id": 23,
+  "articulo": "Erhard",
+  "precio": "$2008.66",
+  "stock": 88,
+  "imagen": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+}, {
+  "id": 24,
+  "articulo": "Jonas",
+  "precio": "$6548.15",
+  "stock": 68,
+  "imagen": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+}, {
+  "id": 25,
+  "articulo": "Rozanne",
+  "precio": "$3790.49",
+  "stock": 98,
+  "imagen": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+}, {
+  "id": 26,
+  "articulo": "Brietta",
+  "precio": "$6895.36",
+  "stock": 84,
+  "imagen": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+}, {
+  "id": 27,
+  "articulo": "Olivero",
+  "precio": "$2859.11",
+  "stock": 43,
+  "imagen": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+}, {
+  "id": 28,
+  "articulo": "Drugi",
+  "precio": "$1704.28",
+  "stock": 90,
+  "imagen": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+}, {
+  "id": 29,
+  "articulo": "Lulita",
+  "precio": "$3549.17",
+  "stock": 90,
+  "imagen": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+}, {
+  "id": 30,
+  "articulo": "Corene",
+  "precio": "$1031.66",
+  "stock": 74,
+  "imagen": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+}, {
+  "id": 31,
+  "articulo": "Friederike",
+  "precio": "$2910.78",
+  "stock": 81,
+  "imagen": "http://dummyimage.com/250x250.png/dddddd/000000"
+}, {
+  "id": 32,
+  "articulo": "Holly-anne",
+  "precio": "$5997.45",
+  "stock": 48,
+  "imagen": "http://dummyimage.com/250x250.png/dddddd/000000"
+}, {
+  "id": 33,
+  "articulo": "Ellsworth",
+  "precio": "$1190.17",
+  "stock": 7,
+  "imagen": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+}, {
+  "id": 34,
+  "articulo": "Arlen",
+  "precio": "$6471.59",
+  "stock": 46,
+  "imagen": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+}, {
+  "id": 35,
+  "articulo": "Elwin",
+  "precio": "$4112.59",
+  "stock": 87,
+  "imagen": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+}, {
+  "id": 36,
+  "articulo": "Amble",
+  "precio": "$5112.05",
+  "stock": 60,
+  "imagen": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+}, {
+  "id": 37,
+  "articulo": "Gavan",
+  "precio": "$1826.92",
+  "stock": 9,
+  "imagen": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+}, {
+  "id": 38,
+  "articulo": "Bendicty",
+  "precio": "$4528.65",
+  "stock": 61,
+  "imagen": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+}, {
+  "id": 39,
+  "articulo": "Genna",
+  "precio": "$3784.39",
+  "stock": 9,
+  "imagen": "http://dummyimage.com/250x250.png/dddddd/000000"
+}, {
+  "id": 40,
+  "articulo": "Ailina",
+  "precio": "$3793.91",
+  "stock": 17,
+  "imagen": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+}, {
+  "id": 41,
+  "articulo": "Sterling",
+  "precio": "$6467.06",
+  "stock": 31,
+  "imagen": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+}, {
+  "id": 42,
+  "articulo": "Sauveur",
+  "precio": "$4613.23",
+  "stock": 88,
+  "imagen": "http://dummyimage.com/250x250.png/dddddd/000000"
+}, {
+  "id": 43,
+  "articulo": "Gail",
+  "precio": "$5272.62",
+  "stock": 58,
+  "imagen": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+}, {
+  "id": 44,
+  "articulo": "Nickolai",
+  "precio": "$6705.34",
+  "stock": 62,
+  "imagen": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+}, {
+  "id": 45,
+  "articulo": "Kym",
+  "precio": "$2558.35",
+  "stock": 78,
+  "imagen": "http://dummyimage.com/250x250.png/dddddd/000000"
+}, {
+  "id": 46,
+  "articulo": "Marga",
+  "precio": "$6671.48",
+  "stock": 71,
+  "imagen": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+}, {
+  "id": 47,
+  "articulo": "Monte",
+  "precio": "$2481.93",
+  "stock": 34,
+  "imagen": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+}, {
+  "id": 48,
+  "articulo": "Cchaddie",
+  "precio": "$5457.73",
+  "stock": 78,
+  "imagen": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+}, {
+  "id": 49,
+  "articulo": "Geno",
+  "precio": "$1603.26",
+  "stock": 30,
+  "imagen": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+}, {
+  "id": 50,
+  "articulo": "Towny",
+  "precio": "$2864.10",
+  "stock": 79,
+  "imagen": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+}]
