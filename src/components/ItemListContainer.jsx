@@ -1,30 +1,33 @@
 import { useEffect, useState } from "react";
 import ItemList from "./ItemList";
-import datosJson from "./data.json"
 
 
-export default function ItemListContainer ({titulo}) {
-    const [productos, setProducts] = useState([]);
-    const [loading, setLoading] = useState(false);
-  
-    useEffect(() => {
-      new Promise((resolve, reject) => {
-        setLoading(true);
-        const dataJson = '{"result":true, "count":42}';
-        const dataObj = JSON.parse(dataJson)
-        console.log(dataObj);
-        setTimeout(() => resolve(dataObj.filter((item) => item.id === id)), 2000);
-        
-      })
-        .then((data) => setProducts(data))
-        .finally(() => {
-          setLoading(false);
-        });
-    }, []);
-  
-    return loading ? (
-        <h1>Loading ...</h1>
-      ) : (
-        <ItemList productos={productos}/>
+
+export default function ItemListContainer({ titulo }) {
+  const [productos, setProductos] = useState([]);
+
+  const getCharacterFromApi = async () => {
+    try {
+      // este response siempre nos devuelve un objeto para ejecutar una promesa
+      const response = await fetch(
+        "https://raw.githubusercontent.com/gabrielbareiro/mi-api/master/data/data.json",
+        {
+          method: "GET"
+        }
       );
+      const data = await response.json();
+        console.log(data)
+      setProductos(data);
+    } catch (error) {
+      console.log("aca hay un error");
+    }
+  };
+
+  useEffect(() => {
+    getCharacterFromApi();
+  }, []);
+  console.log(productos)
+  return (
+    <ItemList productos={productos} />
+  );
 }
